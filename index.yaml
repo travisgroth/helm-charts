@@ -3,6 +3,18 @@ entries:
   reddit-exporter:
   - apiVersion: v1
     appVersion: 0.9.1
+    created: "2020-04-25T21:45:33.516677506Z"
+    description: A Helm chart for Kubernetes
+    digest: cff05384a8d58d63f5c44393f13fe33706e8eaa761574a005534b27411fd8d98
+    home: https://github.com/travisgroth/reddit-exporter
+    maintainers:
+    - name: travisgroth
+    name: reddit-exporter
+    urls:
+    - https://github.com/travisgroth/helm-charts/releases/download/reddit-exporter-1.1.0/reddit-exporter-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
+    appVersion: 0.9.1
     created: "2020-04-25T20:30:06.583534698Z"
     description: A Helm chart for Kubernetes
     digest: de021a4d6e13a29363c414e64258aeea5636894dc1f820fa3296cb29f2deb479
