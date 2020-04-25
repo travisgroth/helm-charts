@@ -5,8 +5,8 @@ metadata:
     name: {{ include "reddit-exporter.fullname" . }}
 spec:
     selector:
-    matchLabels:
-        app.kubernetes.io/name: {{ include "reddit-exporter.name" . }}
+        matchLabels:
+            app.kubernetes.io/name: {{ include "reddit-exporter.name" . }}
     endpoints:
     - port: http
 {{ end }}
