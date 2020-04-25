@@ -51,3 +51,4 @@ verbose: false
 regexMatches: false
 regexMatchesFormat: yaml
 subreddits: []
+serviceMonitor: true
