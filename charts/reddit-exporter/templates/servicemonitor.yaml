@@ -1,0 +1,12 @@
+{{ if .Values.serviceMonitor }}
+  - apiVersion: monitoring.coreos.com/v1
+    kind: ServiceMonitor
+    metadata:
+      name: {{ include "reddit-exporter.fullname" . }}
+    spec:
+      selector:
+        matchLabels:
+          app.kubernetes.io/name: {{ include "reddit-exporter.name" . }}
+      endpoints:
+        - port: http
+{{ end }}
